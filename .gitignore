@@ -1,0 +1,10 @@
+*.sage.py
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.pyc
+*.DS_Store
+*.class
+*.java
+__pycache__

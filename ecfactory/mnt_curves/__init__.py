@@ -1,0 +1,1 @@
+from mnt_curves import make_curve

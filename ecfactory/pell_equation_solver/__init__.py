@@ -1,0 +1,1 @@
+from pell_equation_solver import pell_solve
