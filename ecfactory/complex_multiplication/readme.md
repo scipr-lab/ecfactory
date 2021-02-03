@@ -4,7 +4,7 @@ Complex Mulitiplication
 Overview
 --------
 
-This module provides functionality to construct elliptic curves via the _Complex Multiplication (CM) method_. The implementation follows the procedure described in [\[W08\]](/references/Washington 2008 --- Elliptic Curves Number Theory and Cryptography.pdf). This module contains three files:
+This module provides functionality to construct elliptic curves via the _Complex Multiplication (CM) method_. The implementation follows the procedure described in [\[W08\]](/references/Washington%202008%20---%20Elliptic%20Curves%20Number%20Theory%20and%20Cryptography.pdf). This module contains three files:
 
 * `complex_multiplication.py`, which contains the algorithm for the CM method;
 

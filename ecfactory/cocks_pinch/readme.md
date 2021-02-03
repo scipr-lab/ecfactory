@@ -4,7 +4,7 @@ Cocks-Pinch Method
 Overview
 --------
 
-This module provides functionality to construct pairing-friendly elliptic curves via the _Cocks-Pinch (CP) method_; curves constructed via this method have &rho;-value approximately 2. The implementation follows the procedure described in [\[FST10\]](/references/Freeman Scott Teske 2010 --- A Taxonomy of Pairing-Friendly Elliptic Curves.pdf). This module contains three files:
+This module provides functionality to construct pairing-friendly elliptic curves via the _Cocks-Pinch (CP) method_; curves constructed via this method have &rho;-value approximately 2. The implementation follows the procedure described in [\[FST10\]](/references/Freeman%20Scott%20Teske%202010%20---%20A%20Taxonomy%20of%20Pairing-Friendly%20Elliptic%20Curves.pdf). This module contains three files:
 
 * `cocks_pinch.py`, which contains the algorithm for the CP method. 
 

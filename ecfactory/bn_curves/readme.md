@@ -4,7 +4,7 @@ Barreto-Naehrig Curves
 Overview
 --------
 
-This module provides functionality to construct _Barreto-Naehrig (BN) curves_, following the procedure described in [\[BN05\]](/references/Barreto Naehrig 2005 --- Pairing-Friendly Elliptic Curves of Prime Order.pdf). The module contains three files:
+This module provides functionality to construct _Barreto-Naehrig (BN) curves_, following the procedure described in [\[BN05\]](/references/Barreto%20Naehrig%202005%20---%20Pairing-Friendly%20Elliptic%20Curves%20of%20Prime%20Order.pdf). The module contains three files:
 
 * `bn_curves.py`, which contains the algorithm to construct Barreto-Naehrig curves;
 

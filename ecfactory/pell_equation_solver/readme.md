@@ -4,7 +4,7 @@ Pell Equation Solver
 Overview
 --------
 
-This module implements an algorithm to solve generalized Pell equations, following the procedure described in [\[KT07\]](/references/Karabina Teske 2007 --- On prime-order elliptic curves with embedding degrees k = 3,4, and 6.pdf). This module contains two files:
+This module implements an algorithm to solve generalized Pell equations, following the procedure described in [\[KT07\]](/references/Karabina%20Teske%202007%20---%20On%20prime-order%20elliptic%20curves%20with%20embedding%20degrees%20k%20%3D%203%2C4%2C%20and%206.pdf). This module contains two files:
 
 * `pell_equation_solver.py`, which contains the algorithm to solve Pell equations;
 
