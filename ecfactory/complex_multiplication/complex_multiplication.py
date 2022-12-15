@@ -103,11 +103,14 @@ def small_A_twist(E):
     a = power_mod(Integer(a), -1, q)
     if kronecker(a,q) == -1:
         b = 2
-        while kronecker(b,q) == 1:
+        while 1:
             b += 1
-        a = a*b
-    assert kronecker(a,q) == 1
-    d = Mod(a,q).sqrt()
+            a = a*b
+            if kronecker(b,q) == 1:
+                continue
+            d = Mod(a,q).sqrt()
+            if kronecker(d,q) != 1:
+                continue
     ainvs = [i for i in E.ainvs()]
     ainvs[3]*= d**2
     ainvs[4] *= d**3
