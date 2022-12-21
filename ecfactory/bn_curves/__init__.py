@@ -1,1 +1,1 @@
-from bn_curves import make_curve
+from .bn_curves import make_curve

@@ -1,10 +1,10 @@
-import utils
-import bn_curves
-import cocks_pinch
-import complex_multiplication
-import dupont_enge_morain
-import ec_chain
-import mnt_curves
-import mnt_cycles
-import pell_equation_solver
+import ecfactory.utils
+import ecfactory.bn_curves
+import ecfactory.cocks_pinch
+import ecfactory.complex_multiplication
+import ecfactory.dupont_enge_morain
+import ecfactory.ec_chain
+import ecfactory.mnt_curves
+import ecfactory.mnt_cycles
+import ecfactory.pell_equation_solver
 
