@@ -1,1 +1,1 @@
-from mnt_cycles import make_cycle
+from .mnt_cycles import make_cycle

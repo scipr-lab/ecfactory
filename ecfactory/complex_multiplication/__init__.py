@@ -1,1 +1,1 @@
-from complex_multiplication import make_curve, small_A_twist, small_B_twist, test_curve
+from .complex_multiplication import make_curve, small_A_twist, small_B_twist, test_curve
