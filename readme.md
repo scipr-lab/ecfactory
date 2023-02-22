@@ -29,14 +29,14 @@ From the tuple (_q_,_t_,_r_,_k_,_D_), the curve equation can be found using the 
 Requirements
 ------------
 
-The library requires a working [SageMath](http://www.sagemath.org) installation, and has been tested on SageMath version 6.8 and 7.2.
+The library requires a working [SageMath](http://www.sagemath.org) installation, and has been tested on SageMath version 6.8, 7.2 and 9.7.
 
 Installation
 -----------
 
-To install, add the library to the SAGE\_PATH environment variable:
+To install, use sage pip:
 
-	$ export SAGE_PATH="path/to/library/:$SAGE_PATH"
+	$ git clone https://github.com/scipr-lab/ecfactory.git && cd ecfactory && sage -pip install .
 	
 To import and use the library, write
 

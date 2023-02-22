@@ -1,1 +1,1 @@
-from mnt_curves import make_curve
+from .mnt_curves import make_curve

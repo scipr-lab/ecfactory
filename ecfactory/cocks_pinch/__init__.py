@@ -1,1 +1,1 @@
-from cocks_pinch import find_element_of_order, method, run, gen_params_from_bits, gen_params_from_r, test_promise
+from .cocks_pinch import find_element_of_order, method, run, gen_params_from_bits, gen_params_from_r, test_promise
