@@ -1,0 +1,9 @@
+#!/bin/bash
+
+FILE=$1
+
+for i in `seq 10 64`;
+do
+	echo "$i:"
+	cat $FILE | grep "(r-1) = $i" | wc -l
+done
