@@ -41,10 +41,13 @@ def _pell_solve_1(D,m): # m^2 < D
         if test == 1:
             x0 = p[i]
             y0 = q[i]
-        test = (m/test)
-        if is_square(test) and test >= 1:
-            test = Integer(test)
-            prim_sols.append((test*p[i],test*q[i]))
+        divisible = True
+        try:
+            test = Integer(m/test)
+        except TypeError:
+            divisible = False
+        if divisible and is_square(test) and test >= 1:
+            prim_sols.append((test.sqrt()*p[i], test.sqrt()*q[i]))
         i+=1
         P = a*Q - P
         Q = (D-P**2)/Q
