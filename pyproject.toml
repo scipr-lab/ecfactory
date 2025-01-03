@@ -9,6 +9,12 @@ readme = "readme.md"
 [tool.poetry.dependencies]
 python = "^3.7"
 
+passagemath-schemes = { version = "^10.4", optional = true }
+passagemath-symbolics = { version = "^10.4", optional = true }
+passagemath-repl = { version = "^10.4", optional = true }
+
+[tool.poetry.extras]
+passagemath = ["passagemath-schemes", "passagemath-symbolics", "passagemath-repl"]
 
 [build-system]
 requires = ["poetry-core"]
