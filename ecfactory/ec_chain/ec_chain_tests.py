@@ -1,4 +1,6 @@
-from sage.all import randint, random_prime, is_prime
+from sage.misc.prandom import randint
+from sage.arith.misc import random_prime
+from sage.arith.misc import is_prime
 import ecfactory.ec_chain as ec
 import time
 

@@ -1,4 +1,4 @@
-from sage.all import randint
+from sage.misc.prandom import randint
 import ecfactory.dupont_enge_morain as dem
 import time
 import ecfactory.utils as utils

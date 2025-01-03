@@ -1,4 +1,4 @@
-from sage.all import EllipticCurve
+from sage.schemes.elliptic_curves.constructor import EllipticCurve
 import ecfactory.complex_multiplication as cm
 from ecfactory.utils import print_curve
 

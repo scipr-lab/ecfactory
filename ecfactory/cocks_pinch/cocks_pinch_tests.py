@@ -1,4 +1,4 @@
-from sage.all import randint
+from sage.misc.prandom import randint
 import time
 import ecfactory.cocks_pinch as cp
 import ecfactory.utils as utils

@@ -1,4 +1,15 @@
-from sage.all import random, power_mod, primitive_root, Integer, random_prime, is_prime, kronecker, squarefree_part, is_square, Mod, fundamental_discriminant, randint
+from sage.misc.prandom import random
+from sage.arith.misc import power_mod
+from sage.arith.misc import primitive_root
+from sage.rings.integer import Integer
+from sage.arith.misc import random_prime
+from sage.arith.misc import is_prime
+from sage.arith.misc import kronecker
+from sage.misc.functional import squarefree_part
+from sage.arith.misc import is_square
+from sage.rings.finite_rings.integer_mod import Mod
+from sage.arith.misc import fundamental_discriminant
+from sage.misc.prandom import randint
 import time
 from ecfactory.utils import is_valid_curve
 import ecfactory.utils as utils
