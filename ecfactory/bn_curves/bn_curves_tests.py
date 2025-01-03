@@ -1,4 +1,4 @@
-from sage.all import randint
+from sage.misc.prandom import randint
 import ecfactory.bn_curves as bn
 import ecfactory.utils as utils
 

@@ -1,4 +1,8 @@
-from sage.all import is_square, sqrt, Integer, floor, ceil
+from sage.arith.misc import is_square
+from sage.misc.functional import sqrt
+from sage.rings.integer import Integer
+from sage.functions.other import floor
+from sage.functions.other import ceil
 
 def pell_solve(D, m):
     """

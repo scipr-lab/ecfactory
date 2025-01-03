@@ -1,5 +1,24 @@
-from sage.all_cmdline import x
-from sage.all import random, power_mod, primitive_root, Integer, random_prime, is_prime, kronecker, squarefree_part, is_square, Mod, PolynomialRing, ZZ, fundamental_discriminant, randint, GF,sqrt, round, floor, ceil, euler_phi, log
+from sage.misc.prandom import random
+from sage.arith.misc import power_mod
+from sage.arith.misc import primitive_root
+from sage.rings.integer import Integer
+from sage.arith.misc import random_prime
+from sage.arith.misc import is_prime
+from sage.arith.misc import kronecker
+from sage.misc.functional import squarefree_part
+from sage.arith.misc import is_square
+from sage.rings.finite_rings.integer_mod import Mod
+from sage.rings.polynomial.polynomial_ring_constructor import PolynomialRing
+from sage.rings.integer_ring import Z as ZZ
+from sage.arith.misc import fundamental_discriminant
+from sage.misc.prandom import randint
+from sage.rings.finite_rings.finite_field_constructor import FiniteField as GF
+from sage.misc.functional import sqrt
+from sage.misc.functional import round
+from sage.functions.other import floor
+from sage.functions.other import ceil
+from sage.arith.misc import euler_phi
+from sage.misc.functional import log
 import time
 from ecfactory.utils import is_valid_curve
 import ecfactory.utils as utils
@@ -34,6 +53,7 @@ def method(num_bits,k,D,y,max_trials=10000):
 def _method_pt1(num_bits,k,D,y):
     a = Integer(-D*y**2)
     R = PolynomialRing(ZZ,'x')
+    x = R.gen(0)
     f = R.cyclotomic_polynomial(k)(x-1).polynomial(base_ring = R)
     g = (a+(x-2)**2).polynomial(base_ring = R)
     r = Integer(f.resultant(g))

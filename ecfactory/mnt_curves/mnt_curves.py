@@ -1,4 +1,12 @@
-from sage.all import QuadraticField, is_prime, kronecker, fundamental_discriminant, log, sqrt, is_square, power_mod, Integer
+from sage.rings.number_field.number_field import QuadraticField
+from sage.arith.misc import is_prime
+from sage.arith.misc import kronecker
+from sage.arith.misc import fundamental_discriminant
+from sage.misc.functional import log
+from sage.misc.functional import sqrt
+from sage.arith.misc import is_square
+from sage.arith.misc import power_mod
+from sage.rings.integer import Integer
 import time
 from ecfactory.pell_equation_solver import pell_solve
 from ecfactory.utils import is_valid_curve

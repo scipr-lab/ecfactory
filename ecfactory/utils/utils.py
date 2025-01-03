@@ -1,7 +1,12 @@
 import time
-from sage.all import is_prime, is_square, power_mod, fundamental_discriminant, log, floor
-    
-def is_valid_curve(q,t,r,k,D): 
+from sage.arith.misc import is_prime
+from sage.arith.misc import is_square
+from sage.arith.misc import power_mod
+from sage.arith.misc import fundamental_discriminant
+from sage.misc.functional import log
+from sage.functions.other import floor
+
+def is_valid_curve(q,t,r,k,D):
     """
     Description:
     

@@ -1,4 +1,14 @@
-from sage.all import power_mod, primitive_root, is_square, hilbert_class_polynomial, is_prime,GF, EllipticCurve, kronecker, randint, Integer, Mod
+from sage.arith.misc import power_mod
+from sage.arith.misc import primitive_root
+from sage.arith.misc import is_square
+from sage.schemes.elliptic_curves.cm import hilbert_class_polynomial
+from sage.arith.misc import is_prime
+from sage.rings.finite_rings.finite_field_constructor import FiniteField as GF
+from sage.schemes.elliptic_curves.constructor import EllipticCurve
+from sage.arith.misc import kronecker
+from sage.misc.prandom import randint
+from sage.rings.integer import Integer
+from sage.rings.finite_rings.integer_mod import Mod
 from ecfactory.utils import is_valid_curve
 import ecfactory.utils as utils
 
